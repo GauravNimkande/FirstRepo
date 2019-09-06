@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20455" started-at="2018-08-02T05:59:01Z" finished-at="2018-08-02T05:59:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20455" started-at="2018-08-02T05:59:01Z" finished-at="2018-08-02T05:59:22Z">
+      <class name="NERLExcel.ComExcel">
+        <test-method status="PASS" signature="Demo(java.lang.String, java.lang.String)[pri:0, instance:NERLExcel.ComExcel@1bce4f0a]" name="Demo" duration-ms="10042" started-at="2018-08-02T11:29:02Z" data-provider="Sample" finished-at="2018-08-02T11:29:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RPMAK136]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mumbai123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="Demo(java.lang.String, java.lang.String)[pri:0, instance:NERLExcel.ComExcel@1bce4f0a]" name="Demo" duration-ms="9885" started-at="2018-08-02T11:29:12Z" data-provider="Sample" finished-at="2018-08-02T11:29:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RPMAK137]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mumbai123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- NERLExcel.ComExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -10,12 +10,12 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+/*import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;*/
 
 public class ComExcel {
 	
-	@Test(dataProvider="Sample")
+	//@Test(dataProvider="Sample")
 public void Demo(String UserName,String Password) throws InterruptedException{
 	System.out.println("User Name: -"+UserName +"  Password is:- "+Password);
 	System.out.println("Test Case Execution Started");
@@ -38,7 +38,7 @@ public void Demo(String UserName,String Password) throws InterruptedException{
 	
 	driver.findElement(By.xpath(".//*[@id='l-login']/form/a")).click();
 }
-@DataProvider(name="Sample")
+//@DataProvider(name="Sample")
 public Object[][] Dataprv() throws IOException
 {
 	
